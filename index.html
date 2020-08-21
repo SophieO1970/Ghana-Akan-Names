@@ -9,6 +9,7 @@
 </head>
 <body>
     <div class="container">
+      <div class="jumbotron">
         <div id="About">
             <h1>Description of the App</h1>
             <p>As a developer, one comes with different and new techniques of getting things and problems solved.
@@ -20,6 +21,7 @@
                 use and understanding it has been made easy as long as one remembers their date of birth, month and year.
             </p> 
         </div>
+      </div>
         <div id="Illustration">
           <h2>Illustration of Akan Names</h2>
           <p>Below is the the Ghanian names for both females and males and the the day one is given the name.
@@ -84,7 +86,9 @@
               class="form-control" 
               id="date" 
               placeholder="name@example.com"
-              required/>
+              required
+
+              />
             </div>
             <div class="form-group">
               <label for="exampleFormControlSelect2">Gender</label>
@@ -94,7 +98,9 @@
                 <option>female</option>
               </select>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary" onclick="getAkanName()">
+              Submit
+            </button>
           </form>
         
     </div>
