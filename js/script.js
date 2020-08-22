@@ -1,9 +1,9 @@
 var akanMaleNames =["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Yaw", "kofi", "Kwame"]
 var akanFemaleNames =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 
-function akanName() {
+function getAkanName() {
     var gender = document.getElementById("gender").value;
-    var ydate = document.getElementById("ydate").value;
+    var ydate = document.getElementById("date").value;
 
     var DD = parseInt(ydate.substr(8, 9));
     var MM = parseInt(ydate.substr(5, 6));
@@ -14,9 +14,11 @@ function akanName() {
         alert("Invalid day. Please enter a valid date")
       } else if (MM <= 0 || MM > 12) {
         alert("Invalid Month. Please enter a valid month")
-      } else if (gender === "Male") {
+      } else if (gender === "male") {
         alert("Your Ghanian equivalent name is " + akanMaleNames[d])
-      } else
+      } else if (gender === "female") {
         alert("Your Ghanian equivalent name is " + akanFemaleNames[d])
+      } else
+      alert("Invalid gender. Please choose a valid gender")
 
 }
