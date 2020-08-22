@@ -8,4 +8,5 @@ function akanName() {
     var DD = parseInt(ydate.substr(8, 9));
     var MM = parseInt(ydate.substr(5, 6));
     var YY = parseInt(ydate.substr(1, 3));
+    var CC = parseInt(ydate.substr(0, 2));
 }
