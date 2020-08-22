@@ -4,3 +4,6 @@ var akanFemaleNames =["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"]
 function akanName() {
     var gender = document.getElementById("gender").value;
     var ydate = document.getElementById("ydate").value;
+
+    var DD = parseInt(ydate.substr(8, 9))
+}
