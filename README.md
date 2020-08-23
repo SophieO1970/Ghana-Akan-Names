@@ -52,6 +52,8 @@ Phone Number
 
 +254710272763
 
-# Lincense
+# License
 
 [MIT](https://github.com/sophieO1970/Ghana-Akan-Names/blob/master/LICENSE)
+
+Copyright (c) 2020 SophieO1970
