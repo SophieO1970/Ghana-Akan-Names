@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <title>Akan Names</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <div id="About">
+        <h1>Description of the App</h1>
+        <p>As a developer, one comes with different and new techniques of getting things and problems solved.
+          So who said naming a child is easy? Most people are named differently. For example, one can be named
+          with seasons, their favourite relatives, names from the bible,leaders,musicians,actors and so on.
+          We go to Ghana where the Akan name is derived. The names are given to children as their first names according
+          to the day of the week that they are born. From this we decided to come up with an app that will help identify
+          the name one is given in Ghana depending on the day.
+          This App helps the user to be able to get to know their names by the day they were born. Its easy to
+          use and understanding it has been made easy as long as one remembers their date of birth, month and year.
+        </p>
+      </div>
+      <div id="Illustration">
+        <h2>Illustration of the Akan Names</h2>
+        <p>Below is the the Ghanian names for both females and males and the the day of the week one is given the name.
+        </p>
+        <table class="table table-bordered">
+          <thead class="bg-primary">
+            <tr>
+              <th scope="col">Day Of the Week</th>
+              <th scope="col">Akan Male Name</th>
+              <th scope="col">Akan Female Name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Sunday</th>
+              <td>Kwasi</td>
+              <td>Akosua</td>
+            </tr>
+            <tr>
+              <th scope="row">Monday</th>
+              <td>Kwadwo</td>
+              <td>Adwoa</td>
+            </tr>
+            <tr>
+              <th scope="row">Tuesday</th>
+              <td>Kwabena</td>
+              <td>Abenaa</td>
+            </tr>
+            <tr>
+              <th scope="row">Wednesday</th>
+              <td>Kwaku</td>
+              <td>Akua</td>
+            </tr>
+            <tr>
+              <th scope="row">Thursday</th>
+              <td>Yaw</td>
+              <td>Yaa</td>
+            </tr>
+            <tr>
+              <th scope="row">Friday</th>
+              <td>Kofi</td>
+              <td>Afua</td>
+            </tr>
+            <tr>
+              <th scope="row">Saturday</th>
+              <td>Kwame</td>
+              <td>Ama</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div id="Method">
+        <h3>Data form</h3>
+        <p>To be able to get the Akan name, we must have a form where will be able to fill in our information so as to
+          be able to get the name. Below is the data form;
+        </p>
+      </div>
+      <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">Date Of Birth</label>
+          <input type="date" class="form-control" id="date" required />
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Gender</label>
+          <select class="form-control" id="gender" required>
+            <option value=""></option>
+            <option>male</option>
+            <option>female</option>
+          </select>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="getAkanName()">
+          Submit
+        </button>
+      </form>
+      <br><br>
+      <div class="footer" id="contact">
+        <h4>Contact</h4>
+        <p>Phone <a href="tel:+254710272763"> +254(0)710 272 763</a></p>
+        <p>Email <a href="mailto:sophieolondie@gmail.com"> sophieolondie@gmail.com</a></p>
+        <a href="https://en-gb.facebook.com/login/"> <img src="images/facebook.png" alt="facebook" height="70"
+            width="100"></a>
+        <a href="https://en-gb.instagram.com/login"> <img src="images/instagram.jpeg" alt="facebook" height="70"
+            width="100"></a>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

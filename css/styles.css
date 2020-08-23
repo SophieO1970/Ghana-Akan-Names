@@ -1,0 +1,24 @@
+body{
+    background-color: grey;
+}
+h1,h2{
+    text-align: center;
+    color:maroon;
+    font: bold;
+}
+h3{
+    color: maroon;
+    font: bold;
+}
+form{
+    background-color: maroon;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+  }
+  h4{
+    color: maroon;
+    font: bold;
+    font-style: oblique;
+  }
