@@ -54,7 +54,4 @@ Phone Number
 
 # Lincense
 
-MIT Lincense:
-Copyright (c) 2020 SophieO1970
-
-
+[MIT](https://github.com/sophieO1970/Ghana-Akan-Names/blob/master/LICENSE)
