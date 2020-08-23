@@ -22,3 +22,13 @@ form{
     font: bold;
     font-style: oblique;
   }
+  @media screen and (min-width: 480px) and (max-width: 767px) {
+    body {
+        background-color: grey;
+    }
+}
+@media screen and (min-width: 768px) {
+    body {
+        background-color: grey;
+    }
+}
